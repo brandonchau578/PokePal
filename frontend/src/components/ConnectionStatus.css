@@ -1,0 +1,55 @@
+.connection-status {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.status-connected {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.status-disconnected {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.status-error {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.status-unknown {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.status-indicator {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+}
+
+.indicator-green {
+  background-color: #10b981;
+}
+
+.indicator-red {
+  background-color: #ef4444;
+}
+
+.indicator-yellow {
+  background-color: #f59e0b;
+}
+
+.indicator-gray {
+  background-color: #6b7280;
+}
+
+.status-text {
+  font-size: 0.75rem;
+}
